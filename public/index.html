@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kampung Zombie FPS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <h1>Kampung Zombie: FPS Multiplayer</h1>
+      <p id="stats">HP: 100 | Ammo: 30 | Weapon Lv: 1 | Key: Tidak</p>
+      <p id="hint">WASD jalan, Mouse lihat/tembak, E ambil item, U upgrade senjata, O buka pintu.</p>
+      <p id="score"></p>
+    </div>
+    <div id="crosshair">+</div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="game.js"></script>
+  </body>
+</html>

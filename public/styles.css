@@ -1,0 +1,6 @@
+html, body { margin: 0; height: 100%; overflow: hidden; font-family: Arial, sans-serif; background: #1d1d1d; }
+#hud { position: absolute; left: 14px; top: 10px; z-index: 3; color: #fff; background: rgba(0,0,0,.5); padding: 10px; border-radius: 8px; max-width: 620px; }
+#hud h1 { margin: 0 0 6px; font-size: 18px; color: #ffd166; }
+#hud p { margin: 4px 0; font-size: 14px; }
+#crosshair { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 4; color: #ff3d3d; font-size: 24px; pointer-events: none; }
+canvas { display: block; }
